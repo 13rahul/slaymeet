@@ -1,0 +1,11 @@
+.env
+storage/logs/*
+storage/rate_limits/*
+storage/piper/
+storage/recordings/*
+storage/transcripts/*
+storage/uploads/*
+vendor/
+.idea/
+.vscode/
+*.log

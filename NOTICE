@@ -1,0 +1,7 @@
+SlayMeet includes third-party software:
+
+- LiveKit Server — Apache License 2.0 — https://github.com/livekit/livekit
+- livekit-client (browser SDK) — Apache License 2.0 — https://github.com/livekit/client-sdk-js
+- Piper TTS / voice models — see upstream licenses at https://github.com/rhasspy/piper
+
+Real-time media powered by LiveKit. SlayMeet is not affiliated with LiveKit Inc.

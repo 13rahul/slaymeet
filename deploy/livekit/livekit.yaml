@@ -1,0 +1,14 @@
+# LiveKit server — keys must match join_room.php / .env LIVEKIT_* vars
+port: 7880
+
+rtc:
+  tcp_port: 7881
+  port_range_start: 50000
+  port_range_end: 60000
+  use_external_ip: true
+
+keys:
+  slaymeet_api_key: slaymeet_sec_9876543210fedcbaabcdef0123456789
+
+logging:
+  level: info
