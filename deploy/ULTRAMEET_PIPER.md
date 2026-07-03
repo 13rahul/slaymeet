@@ -1,30 +1,30 @@
-# UltraMeet Piper TTS (server)
+# SlayMeet Piper TTS (server)
 
-Teena / Ultra Looper AI speaks using **self-hosted Piper** — not a background service. Each reply runs `piper` once via PHP `proc_open` and returns WAV to the browser.
+Teena speaks using **self-hosted Piper** — not a background service. Each reply runs `piper` once via PHP `proc_open` and returns WAV to the browser.
 
-## One-time install on VPS
+## One-time install
 
 ```bash
-cd /var/www/slayly
-SLAYLY_ROOT=/var/www/slayly bash deploy/install-piper-tts.sh
-php deploy/verify-piper-tts.php
-php deploy/vps-health-check.php   # should show piper_tts_configured: pass
+cd /path/to/slaymeet
+bash deploy/install-piper-tts.sh
+php scripts/verify-piper-tts.php
 ```
 
-Or use the full deploy script from your PC:
+Windows:
 
 ```powershell
-powershell -ExecutionPolicy Bypass -File deploy\deploy-full-to-vps.ps1
+powershell -ExecutionPolicy Bypass -File deploy/install-piper-tts.ps1
+php scripts/verify-piper-tts.php
 ```
 
-## Required `.env` keys (auto-added by install script if missing)
+## Required `.env` keys
 
 ```env
 SLAYMEET_TTS_ENGINE=piper
-SLAYMEET_PIPER_HOME=/var/www/slayly/storage/piper
-SLAYMEET_PIPER_BIN=/var/www/slayly/storage/piper/piper/piper
+SLAYMEET_PIPER_HOME=storage/piper
 SLAYMEET_PIPER_VOICE=en_US-amy-medium
-SLAYMEET_TTS_GEMINI_FALLBACK=false
+GEMINI_API_KEY=your-key-here
+SLAYMEET_BOT_SECRET=long-random-string
 ```
 
 ## Requirements
