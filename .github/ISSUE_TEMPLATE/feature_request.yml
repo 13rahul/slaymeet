@@ -1,0 +1,38 @@
+name: Feature request
+description: Suggest an improvement for SlayMeet
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Describe the problem you want solved and your idea. Accessibility-friendly ideas are especially welcome.
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What is hard or missing today?
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed solution
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Meetings / LiveKit
+        - Teena AI
+        - UI / accessibility
+        - Docs / Docker
+        - API
+        - Other
+    validations:
+      required: true

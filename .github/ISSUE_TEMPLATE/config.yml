@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: UltraLooper (commercial suite)
+    url: https://ultralooper.com
+    about: Hosted Workplace Suite, CRM, and UltraMeet showcase.
+  - name: Security report
+    url: https://github.com/13rahul/slaymeet/security/advisories/new
+    about: Please report vulnerabilities privately — do not open a public issue.

@@ -1,11 +1,25 @@
-SlayMeet
-========
+# SlayMeet
+
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
+[![CI](https://github.com/13rahul/slaymeet/actions/workflows/ci.yml/badge.svg)](https://github.com/13rahul/slaymeet/actions/workflows/ci.yml)
+[![GitHub release](https://img.shields.io/github/v/release/13rahul/slaymeet?include_prereleases&sort=semver)](https://github.com/13rahul/slaymeet/releases)
+[![UltraLooper](https://img.shields.io/badge/Showcase-ultralooper.com-0f766e)](https://ultralooper.com)
 
 Self-hosted video meetings with **Teena**, an in-room AI assistant (wake word, Gemini brain, Piper TTS). Built on [LiveKit](https://livekit.io) (Apache-2.0). SlayMeet is not affiliated with LiveKit Inc.
 
 Showcase: [ultralooper.com](https://ultralooper.com)
 
 ![UltraMeet on UltraLooper — Instant Meeting](docs/ultrameet-showcase.png)
+
+## Features
+
+* Instant and scheduled video meetings (LiveKit SFU)
+* In-room AI assistant **Teena** (wake word, chat, voice)
+* Self-hosted Piper TTS by default (optional Gemini TTS)
+* Screen share, chat, people / admit flow
+* Docker Compose one-command local stack
+* HTTP APIs for rooms, signaling, calls, and the agent
+* Accessibility-minded — contributions that improve a11y are especially welcome
 
 ## Quick start (Docker)
 
@@ -62,13 +76,10 @@ database/schema.sql    # MySQL schema
 
 All endpoints under `/api/slaymeet/` — room lifecycle, signaling, calls, Teena (`invite_agent`, `agent_respond`, `agent_tts`).
 
-## Related
+## UltraLooper (hosted suite)
 
-SlayMeet is the open-source meeting engine. The commercial Workplace Suite, CRM, and product showcase live at [ultralooper.com](https://ultralooper.com).
-
-## License
-
-Apache-2.0. Copyright 2026 Fundaking Media OPC Pvt Ltd. See [LICENSE](LICENSE) and [NOTICE](NOTICE).
+Want branding, CRM, Workplace apps, and managed Meet without running Docker yourself?  
+**[UltraLooper](https://ultralooper.com)** is the commercial suite built around this engine (similar role to Jitsi’s JaaS).
 
 ## Security
 
@@ -76,4 +87,13 @@ Report issues per [SECURITY.md](SECURITY.md). Rotate `SLAYMEET_BOT_SECRET` and d
 
 ## Contributing
 
-See [CONTRIBUTING.md](CONTRIBUTING.md).
+See [CONTRIBUTING.md](CONTRIBUTING.md) and our [Code of Conduct](CODE_OF_CONDUCT.md).  
+Bug and feature templates are available when you open an issue. Accessibility improvements are especially welcome.
+
+## License
+
+Apache-2.0. Copyright 2026 Fundaking Media OPC Pvt Ltd. See [LICENSE](LICENSE) and [NOTICE](NOTICE).
+
+---
+
+Built with care by [Fundaking Media](https://ultralooper.com) and the community.

@@ -1,0 +1,52 @@
+name: Bug report
+description: Report a problem with SlayMeet
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping improve SlayMeet. Please fill in the sections below.
+  - type: textarea
+    id: describe
+    attributes:
+      label: What happened?
+      description: Clear description of the bug.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. …
+        2. …
+        3. …
+    validations:
+      required: true
+  - type: dropdown
+    id: install
+    attributes:
+      label: How did you run SlayMeet?
+      options:
+        - Docker Compose
+        - Manual / local PHP
+        - UltraLooper hosted
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version / commit
+      description: Tag (e.g. v0.1.0) or commit SHA if known.
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs / screenshots
+      description: Paste relevant errors (redact secrets).
