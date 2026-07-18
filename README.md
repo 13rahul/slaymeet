@@ -88,9 +88,7 @@ Report issues per [SECURITY.md](SECURITY.md). Rotate `SLAYMEET_BOT_SECRET` and d
 ## Contributing
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) and our [Code of Conduct](CODE_OF_CONDUCT.md).  
-Bug and feature templates are available when you open an issue. Accessibility improvements are especially welcome.
-
-SlayMeet is built by a **half-blind founder** — we design and prioritize so more people can use meetings and AI tools with confidence.
+Bug and feature templates are available when you open an issue. Accessibility improvements are especially welcome — the project is shaped by a half-blind founder who builds so more people can use meetings and AI with confidence.
 
 ## License
 
@@ -98,4 +96,4 @@ Apache-2.0. Copyright 2026 Fundaking Media OPC Pvt Ltd. See [LICENSE](LICENSE) a
 
 ---
 
-Built with care by a half-blind founder at [Fundaking Media](https://ultralooper.com) and the community.
+Built with care by [Fundaking Media](https://ultralooper.com) and the community — led by a half-blind founder focused on accessible tools.
