@@ -81,6 +81,18 @@ All endpoints under `/api/slaymeet/` — room lifecycle, signaling, calls, Teena
 Want branding, CRM, Workplace apps, and managed Meet without running Docker yourself?  
 **[UltraLooper](https://ultralooper.com)** is the commercial suite built around this engine (similar role to Jitsi’s JaaS).
 
+## Support / Donate
+
+If SlayMeet helps you, you can support development (coffee money goes a long way):
+
+**UPI / PhonePe** — scan this QR with PhonePe, Google Pay, Paytm, or any UPI app:
+
+<p align="center">
+  <img src="docs/donate-phonepe-qr.png" alt="PhonePe UPI donation QR code" width="280" />
+</p>
+
+You can also sponsor via [GitHub Sponsors](https://github.com/sponsors/13rahul) when available, or try the hosted suite at [ultralooper.com](https://ultralooper.com).
+
 ## Security
 
 Report issues per [SECURITY.md](SECURITY.md). Rotate `SLAYMEET_BOT_SECRET` and default admin password before production.

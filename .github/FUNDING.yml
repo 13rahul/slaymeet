@@ -1,4 +1,6 @@
 # These are supported funding model platforms
 
 github: 13rahul
-custom: ["https://ultralooper.com"]
+custom:
+  - "https://github.com/13rahul/slaymeet#support--donate"
+  - "https://ultralooper.com"
