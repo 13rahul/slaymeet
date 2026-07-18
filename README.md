@@ -5,6 +5,8 @@ Self-hosted video meetings with **Teena**, an in-room AI assistant (wake word, G
 
 Showcase: [ultralooper.com](https://ultralooper.com)
 
+![UltraMeet on UltraLooper — Instant Meeting](docs/ultrameet-showcase.png)
+
 ## Quick start (Docker)
 
 ```bash
