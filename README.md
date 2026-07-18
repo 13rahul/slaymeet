@@ -62,7 +62,7 @@ All endpoints under `/api/slaymeet/` — room lifecycle, signaling, calls, Teena
 
 ## Related
 
-SlayMeet is the open-source meeting engine. The commercial Workplace Suite and CRM live at [ultralooper.com](https://ultralooper.com). Product showcase: [slayly.io](https://slayly.io).
+SlayMeet is the open-source meeting engine. The commercial Workplace Suite, CRM, and product showcase live at [ultralooper.com](https://ultralooper.com).
 
 ## License
 
