@@ -6,6 +6,8 @@ storage/recordings/*
 storage/transcripts/*
 storage/uploads/*
 vendor/
+public/assets/vendor/*
+!public/assets/vendor/livekit-client.umd.min.js
 .idea/
 .vscode/
 *.log

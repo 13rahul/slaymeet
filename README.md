@@ -3,6 +3,8 @@ SlayMeet
 
 Self-hosted video meetings with **Teena**, an in-room AI assistant (wake word, Gemini brain, Piper TTS). Built on [LiveKit](https://livekit.io) (Apache-2.0). SlayMeet is not affiliated with LiveKit Inc.
 
+Showcase: [slayly.io](https://slayly.io)
+
 ## Quick start (Docker)
 
 ```bash
@@ -27,7 +29,7 @@ docker compose up --build
 | `SLAYMEET_BOT_SECRET` | Yes | HMAC secret for AI bot tokens |
 | `GEMINI_API_KEY` | For Teena brain | Google Gemini API key |
 | `SLAYMEET_TTS_ENGINE` | No | `piper` (default) or `gemini` |
-| `SLAYMEET_PIPER_*` | For local TTS | See `deploy/ULTRAMEET_PIPER.md` |
+| `SLAYMEET_PIPER_*` | For local TTS | See Piper TTS notes in `deploy/ULTRAMEET_PIPER.md` |
 
 ## Teena (AI agent)
 
@@ -58,10 +60,18 @@ database/schema.sql    # MySQL schema
 
 All endpoints under `/api/slaymeet/` — room lifecycle, signaling, calls, Teena (`invite_agent`, `agent_respond`, `agent_tts`).
 
+## Related
+
+SlayMeet is the open-source meeting engine. The commercial Workplace Suite and CRM live at [ultralooper.com](https://ultralooper.com). Product showcase: [slayly.io](https://slayly.io).
+
 ## License
 
-Apache-2.0. See [LICENSE](LICENSE) and [NOTICE](NOTICE).
+Apache-2.0. Copyright 2026 Fundaking Media OPC Pvt Ltd. See [LICENSE](LICENSE) and [NOTICE](NOTICE).
 
 ## Security
 
 Report issues per [SECURITY.md](SECURITY.md). Rotate `SLAYMEET_BOT_SECRET` and default admin password before production.
+
+## Contributing
+
+See [CONTRIBUTING.md](CONTRIBUTING.md).
