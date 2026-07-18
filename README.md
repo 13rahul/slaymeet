@@ -3,7 +3,7 @@ SlayMeet
 
 Self-hosted video meetings with **Teena**, an in-room AI assistant (wake word, Gemini brain, Piper TTS). Built on [LiveKit](https://livekit.io) (Apache-2.0). SlayMeet is not affiliated with LiveKit Inc.
 
-Showcase: [slayly.io](https://slayly.io)
+Showcase: [ultralooper.com](https://ultralooper.com)
 
 ## Quick start (Docker)
 
